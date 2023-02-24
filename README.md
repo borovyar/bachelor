@@ -4,11 +4,11 @@ The problem is that we have already created N timeslots and M people which you s
 
 Obviously, the best scenario, that is when all people were involved in schedule generation. We will use backtracking algorithm.
 
-Generally, allgorithm starts from the first timeslot and person which potentailly can be assigned:
+Generally, algorithm starts from the first timeslot and person which potentailly can be assigned:
 
 1) If we passed constraints, then we add person as an option for the next computation. 
 2) If we cannot assign anyone, then we back to previous timeslot. If we reach out the end, then it is impossible to generate schedule.
-3) We move forward in case of 1st scenario. Looping it until we will not fulfill all timeslots
+3) We move forward in case of 1st scenario. Looping it until we will fulfill all timeslots
 
 Also, the issue to find out the most optimal schedules(in case of couple of them):
 
